@@ -2115,7 +2115,7 @@ textarea.is-invalid {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   text-align: center;
-  background-color: var(--theme-color);
+  background-color: #f48424 !important;
   color: var(--white-color);
   font-family: var(--body-font);
   font-size: 16px;
@@ -2635,7 +2635,7 @@ textarea.is-invalid {
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
-  color: var(--theme-color);
+  color: #f48424;
   margin-bottom: 27px;
   text-transform: uppercase;
   line-height: 24px;
@@ -2651,7 +2651,7 @@ textarea.is-invalid {
   top: 7px;
   height: 2px;
   width: 20px;
-  background: var(--theme-color);
+  background: #f48424;
 }
 
 .sub-title:before {
@@ -3201,6 +3201,9 @@ hr.title-line {
 }
 /*------------------- 3.8. Text Color -------------------*/
 .hero-subtitle {
+  color: #f48424 !important;
+}
+.orange {
   color: #f48424 !important;
 }
 
@@ -5420,9 +5423,13 @@ ol.wp-block-rss {
   position: relative;
 }
 
+.main-menu ul li{
+  color: #f48424 !important;
+}
 .main-menu ul li.menu-item-has-children > a:after {
   content: "\2b";
   position: relative;
+  color: #f48424 !important;
   font-family: var(--icon-font);
   margin-left: 4px;
   font-weight: 600;
@@ -7347,7 +7354,7 @@ ol.wp-block-rss {
 .breadcumb-menu li:last-child {
   padding-right: 0;
   margin-right: 0;
-  color: var(--theme-color);
+  color: #f48424;
 }
 
 .breadcumb-menu li:last-child:after {
