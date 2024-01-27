@@ -3335,7 +3335,7 @@ a.text-theme:hover,
   opacity: 0.6;
 }
 
-[data-opacity="7"]:before {
+[data-opacity="5"]:before {
   opacity: 0.7;
 }
 
